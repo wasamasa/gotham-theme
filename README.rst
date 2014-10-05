@@ -3,6 +3,8 @@ gotham-theme
 
 .. image:: https://raw.github.com/wasamasa/gotham-theme/master/img/gotham.png
 
+..
+
     It's the colorscheme we set that defines us. (Batman)
 
 About
@@ -16,7 +18,6 @@ Screenshot
 ----------
 
 .. image:: https://raw.github.com/wasamasa/gotham-theme/master/img/scrot.png
-
 
 Installation
 ------------
