@@ -24,9 +24,11 @@ Installation
 
 To manually install the theme, download ``gotham-theme.el`` and put it in
 a suitable location such as ``~/.emacs.d/themes/``.  Add the following
-to your init file::
+to your init file:
 
-  (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+.. code:: cl
+
+    (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 Alternatively you can install the theme via `quelpa
 <https://github.com/quelpa/quelpa>`_ with ``M-: (quelpa '(gotham-theme
@@ -34,9 +36,11 @@ Alternatively you can install the theme via `quelpa
 
 Once the theme is installed, you can enable it with ``M-x load-theme
 RET gotham RET``.  To enable it automatically at startup, add the
-following to your init file::
+following to your init file:
 
-  (load-theme 'gotham t)
+.. code:: cl
+
+    (load-theme 'gotham t)
 
 Contributing
 ------------
