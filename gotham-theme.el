@@ -116,7 +116,19 @@
    ;; customize
    `(custom-button ((t (:foreground ,base4 :box t))))
    `(custom-button-mouse ((t (:foreground ,base5 :box t))))
-   `(custom-group-tag ((t (:inherit fixed-pitch :foreground ,magenta))))))
+   `(custom-group-tag ((t (:inherit fixed-pitch :foreground ,magenta))))
+
+   ;; external packages
+
+   ;; enh-ruby-mode
+   `(enh-ruby-heredoc-delimiter-face ((t (:foreground ,green :weight bold))))
+   `(enh-ruby-op-face ((t (:foreground ,magenta))))
+   `(enh-ruby-regexp-face ((t (:foreground ,green))))
+   `(enh-ruby-regexp-delimiter-face ((t (:foreground ,green :weight bold))))
+   `(enh-ruby-string-delimiter-face ((t (:foreground ,green))))
+   `(erm-syn-errline ((t (:foreground ,red))))
+   `(erm-syn-warnline ((t (:foreground ,orange))))
+   ))
 
 ;;;###autoload
 (and load-file-name
