@@ -39,6 +39,7 @@
 
 ;; TODO 16-color support for terminals
 ;; TODO offer 256 color switch?
+;; TODO test with ruby, python, tex, c, html
 
 (let ((base0   "#0c1014")
       (base1   "#11151c")
