@@ -128,6 +128,24 @@
    `(enh-ruby-string-delimiter-face ((t (:foreground ,green))))
    `(erm-syn-errline ((t (:foreground ,red))))
    `(erm-syn-warnline ((t (:foreground ,orange))))
+
+   ;; auctex
+   `(font-latex-bold-face ((t (:inherit bold))))
+   `(font-latex-doctex-documentation-face ((t (:inherit highlight))))
+   `(font-latex-doctex-preprocessor-face ((t (:inherit highlight :foreground ,red))))
+   `(font-latex-italic-face ((t (:inherit italic))))
+   `(font-latex-math-face ((t (:foreground ,base5))))
+   `(font-latex-sectioning-0-face ((t (:inherit bold :foreground ,yellow))))
+   `(font-latex-sectioning-1-face ((t (:inherit bold :foreground ,yellow))))
+   `(font-latex-sectioning-2-face ((t (:inherit bold :foreground ,yellow))))
+   `(font-latex-sectioning-3-face ((t (:inherit bold :foreground ,yellow))))
+   `(font-latex-sectioning-4-face ((t (:inherit bold :foreground ,yellow))))
+   `(font-latex-sectioning-5-face ((t (:inherit bold :foreground ,yellow))))
+   `(font-latex-sedate-face ((t (:foreground ,orange))))
+   `(font-latex-slide-title-face ((t (:inherit bold :foreground ,orange))))
+   `(font-latex-string-face ((t (:inherit font-lock-string-face))))
+   `(font-latex-verbatim-face ((t (:inherit font-lock-string-face))))
+   `(font-latex-warning-face ((t (:inherit warning))))
    ))
 
 ;;;###autoload
