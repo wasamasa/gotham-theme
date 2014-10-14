@@ -28,7 +28,7 @@ to your init file:
 
 .. code:: cl
 
-    (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+    (add-to-list 'custom-theme-load-path (expand-file-name "~/.emacs.d/themes/"))
 
 Alternatively you can install the theme via `quelpa
 <https://github.com/quelpa/quelpa>`_ with ``M-: (quelpa '(gotham-theme
