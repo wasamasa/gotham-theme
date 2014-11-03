@@ -171,6 +171,12 @@ depending on DISPLAY for keys which are either :foreground or
    (custom-button-mouse :foreground base5 :box t)
    (custom-group-tag :inherit fixed-pitch :foreground magenta)
 
+   ;; ido
+   (ido-first-match :foreground yellow :weight bold)
+   (ido-indicator :foreground red)
+   (ido-only-match :foreground green)
+   (ido-subdir :foreground red)
+
    ;; makefile
    (makefile-space :background magenta)
 
