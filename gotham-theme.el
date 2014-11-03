@@ -183,14 +183,6 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; external packages
 
-   ;; enh-ruby-mode
-   (enh-ruby-heredoc-delimiter-face :foreground green :weight bold)
-   (enh-ruby-op-face :foreground magenta)
-   (enh-ruby-regexp-face :foreground green)
-   (enh-ruby-regexp-delimiter-face :foreground green :weight bold)
-   (enh-ruby-string-delimiter-face :foreground green)
-   (erm-syn-errline :foreground red)
-   (erm-syn-warnline :foreground orange)
    ;; ace-jump
 
    (ace-jump-face-foreground :foreground red :background unspecified)
@@ -213,6 +205,16 @@ depending on DISPLAY for keys which are either :foreground or
    (font-latex-string-face :inherit font-lock-string-face)
    (font-latex-verbatim-face :inherit font-lock-string-face)
    (font-latex-warning-face :inherit warning)
+
+   ;; enh-ruby-mode
+   (enh-ruby-heredoc-delimiter-face :foreground green :weight bold)
+   (enh-ruby-op-face :foreground magenta)
+   (enh-ruby-regexp-face :foreground green)
+   (enh-ruby-regexp-delimiter-face :foreground green :weight bold)
+   (enh-ruby-string-delimiter-face :foreground green)
+   (erm-syn-errline :foreground red)
+   (erm-syn-warnline :foreground orange)
+
    ;; smartparens
    (sp-show-pair-match-face :inherit show-paren-match)
    (sp-show-pair-mismatch-face :inherit show-paren-mismatch)
