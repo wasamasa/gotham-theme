@@ -175,7 +175,7 @@ depending on DISPLAY for keys which are either :foreground or
    (makefile-space :background magenta)
 
    ;; show-paren-mode
-   (show-paren-match :foreground base2 :background cyan :weight normal :inverse-video unspecified)
+   (show-paren-match :foreground base2 :background orange :weight normal :inverse-video unspecified)
    (show-paren-mismatch :foreground base2 :background red :weight normal :inverse-video unspecified)
 
    ;; which-func-mode
