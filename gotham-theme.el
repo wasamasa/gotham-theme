@@ -215,6 +215,14 @@ depending on DISPLAY for keys which are either :foreground or
    (erm-syn-errline :foreground red)
    (erm-syn-warnline :foreground orange)
 
+   ;; rst-mode
+   (rst-level-1 :background base2)
+   (rst-level-2 :background base3)
+   (rst-level-3 :background base4)
+   (rst-level-4 :background base2)
+   (rst-level-5 :background base3)
+   (rst-level-6 :background base4)
+
    ;; smartparens
    (sp-show-pair-match-face :inherit show-paren-match)
    (sp-show-pair-mismatch-face :inherit show-paren-mismatch)
