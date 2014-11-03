@@ -215,6 +215,19 @@ depending on DISPLAY for keys which are either :foreground or
    (erm-syn-errline :foreground red)
    (erm-syn-warnline :foreground orange)
 
+
+   ;; rainbow-delimiters
+   (rainbow-delimiters-depth-1-face :foreground base6)
+   (rainbow-delimiters-depth-2-face :foreground red)
+   (rainbow-delimiters-depth-3-face :foreground cyan)
+   (rainbow-delimiters-depth-4-face :foreground orange)
+   (rainbow-delimiters-depth-5-face :foreground green)
+   (rainbow-delimiters-depth-6-face :foreground red)
+   (rainbow-delimiters-depth-7-face :foreground cyan)
+   (rainbow-delimiters-depth-8-face :foreground orange)
+   (rainbow-delimiters-depth-9-face :foreground green)
+   (rainbow-delimiters-unmatched-face :foreground base2 :background base6)
+
    ;; rst-mode
    (rst-level-1 :background base2)
    (rst-level-2 :background base3)
