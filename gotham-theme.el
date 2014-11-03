@@ -207,6 +207,9 @@ depending on DISPLAY for keys which are either :foreground or
    (font-latex-string-face :inherit font-lock-string-face)
    (font-latex-verbatim-face :inherit font-lock-string-face)
    (font-latex-warning-face :inherit warning)
+   ;; smartparens
+   (sp-show-pair-match-face :inherit show-paren-match)
+   (sp-show-pair-mismatch-face :inherit show-paren-mismatch)
    ))
 
 ;;;###autoload
