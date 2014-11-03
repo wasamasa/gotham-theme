@@ -185,6 +185,10 @@ depending on DISPLAY for keys which are either :foreground or
    (enh-ruby-string-delimiter-face :foreground green)
    (erm-syn-errline :foreground red)
    (erm-syn-warnline :foreground orange)
+   ;; ace-jump
+
+   (ace-jump-face-foreground :foreground red :background unspecified)
+   (ace-jump-face-background :foreground base4 :background unspecified)
 
    ;; auctex
    (font-latex-bold-face :inherit bold)
