@@ -156,8 +156,6 @@ depending on DISPLAY for keys which are either :foreground or
    (isearch :inverse-video t)
    (isearch-fail :foreground red)
    (lazy-highlight :foreground base2 :background yellow)
-   (show-paren-match :foreground base1 :background orange)
-   (show-paren-mismatch :foreground base1 :background red)
 
    ;; mode and header lines
    (minibuffer-prompt :foreground cyan)
@@ -172,6 +170,10 @@ depending on DISPLAY for keys which are either :foreground or
    (custom-button :foreground base4 :box t)
    (custom-button-mouse :foreground base5 :box t)
    (custom-group-tag :inherit fixed-pitch :foreground magenta)
+
+   ;; show-paren-mode
+   (show-paren-match :foreground base2 :background cyan :weight normal :inverse-video unspecified)
+   (show-paren-mismatch :foreground base2 :background red :weight normal :inverse-video unspecified)
 
    ;; external packages
 
