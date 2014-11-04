@@ -231,6 +231,14 @@ depending on DISPLAY for keys which are either :foreground or
    (erm-syn-errline :foreground red)
    (erm-syn-warnline :foreground orange)
 
+   ;; markdown-mode
+   (markdown-header-face-1 :background base2)
+   (markdown-header-face-2 :background base3)
+   (markdown-header-face-3 :background base4)
+   (markdown-header-face-4 :background base2)
+   (markdown-header-face-5 :background base3)
+   (markdown-header-face-6 :background base4)
+
 
    ;; rainbow-delimiters
    (rainbow-delimiters-depth-1-face :foreground base6)
