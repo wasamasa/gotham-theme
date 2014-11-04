@@ -194,6 +194,18 @@ depending on DISPLAY for keys which are either :foreground or
    (show-paren-match :foreground base2 :background orange :weight normal :inverse-video unspecified)
    (show-paren-mismatch :foreground base2 :background red :weight normal :inverse-video unspecified)
 
+   ;; term
+   (term-color-black :foreground black :background black)
+   (term-color-red :foreground red :background red)
+   (term-color-green :foreground green :background green)
+   (term-color-yellow :foreground yellow :background yellow)
+   (term-color-blue :foreground blue :background blue)
+   (term-color-magenta :foreground magenta :background magenta)
+   (term-color-cyan :foreground cyan :background cyan)
+   (term-color-white :foreground base6 :background base6)
+   (term-default-fg-color :inherit term-color-white)
+   (term-default-bg-color :inherit term-color-black)
+
    ;; which-func-mode
    (which-func :foreground orange)
 
@@ -238,7 +250,6 @@ depending on DISPLAY for keys which are either :foreground or
    (markdown-header-face-4 :background base2)
    (markdown-header-face-5 :background base3)
    (markdown-header-face-6 :background base4)
-
 
    ;; rainbow-delimiters
    (rainbow-delimiters-depth-1-face :foreground base6)
