@@ -170,6 +170,19 @@ depending on DISPLAY for keys which are either :foreground or
    (custom-button :foreground base4 :box t)
    (custom-button-mouse :foreground base5 :box t)
    (custom-group-tag :inherit fixed-pitch :foreground magenta)
+   ;; eshell
+   (eshell-prompt :foreground yellow :weight bold)
+   (eshell-ls-archive :foreground magenta)
+   (eshell-ls-backup :foreground violet :weight bold)
+   (eshell-ls-clutter :foreground base5)
+   (eshell-ls-directory :foreground cyan :weight bold)
+   (eshell-ls-executable :foreground green)
+   (eshell-ls-missing :foreground red :weight bold)
+   (eshell-ls-product :foreground base3)
+   (eshell-ls-readonly :foreground red)
+   (eshell-ls-special :foreground orange :weight bold)
+   (eshell-ls-symlink :foreground blue)
+   (eshell-ls-unreadable :foreground red)
 
    ;; ido
    (ido-first-match :foreground yellow :weight bold)
