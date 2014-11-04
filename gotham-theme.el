@@ -170,6 +170,8 @@ depending on DISPLAY for keys which are either :foreground or
    (custom-button :foreground base4 :box t)
    (custom-button-mouse :foreground base5 :box t)
    (custom-group-tag :inherit fixed-pitch :foreground magenta)
+   (custom-state :foreground cyan)
+
    ;; eshell
    (eshell-prompt :foreground yellow :weight bold)
    (eshell-ls-archive :foreground magenta)
