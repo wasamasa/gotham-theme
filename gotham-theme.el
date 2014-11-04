@@ -148,8 +148,9 @@ depending on DISPLAY for keys which are either :foreground or
    (font-lock-type-face :foreground orange)
    (font-lock-variable-name-face :foreground base5)
    (font-lock-warning-face :foreground red)
+   (error :foreground red)
    (success :foreground green)
-   (warning :foreground red)
+   (warning :foreground orange)
 
    ;; search and highlighting
    (match :background base5)
@@ -171,6 +172,10 @@ depending on DISPLAY for keys which are either :foreground or
    (custom-button-mouse :foreground base5 :box t)
    (custom-group-tag :inherit fixed-pitch :foreground magenta)
    (custom-state :foreground cyan)
+
+   ;; compilation
+   (compilation-mode-line-fail :foreground unspecified :inherit compilation-error)
+   (compilation-mode-line-exit :foreground unspecified :inherit compilation-info)
 
    ;; eshell
    (eshell-prompt :foreground yellow :weight bold)
