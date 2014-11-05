@@ -188,7 +188,7 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-product :foreground base3)
    (eshell-ls-readonly :foreground red)
    (eshell-ls-special :foreground orange :weight bold)
-   (eshell-ls-symlink :foreground blue)
+   (eshell-ls-symlink :foreground blue :weight bold)
    (eshell-ls-unreadable :foreground red)
 
    ;; ido
