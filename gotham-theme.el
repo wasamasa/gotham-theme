@@ -177,6 +177,16 @@ depending on DISPLAY for keys which are either :foreground or
    (compilation-mode-line-fail :foreground unspecified :inherit compilation-error)
    (compilation-mode-line-exit :foreground unspecified :inherit compilation-info)
 
+   ;;diff
+   (diff-added :foreground green)
+   (diff-changed :foreground cyan)
+   (diff-header :foreground yellow)
+   (diff-file-header :weight bold)
+   (diff-refine-added :weight bold)
+   (diff-refine-change :weight bold)
+   (diff-refine-removed :weight bold)
+   (diff-removed :foreground red)
+
    ;; eshell
    (eshell-prompt :foreground yellow :weight bold)
    (eshell-ls-archive :foreground magenta)
