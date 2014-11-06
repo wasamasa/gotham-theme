@@ -108,8 +108,11 @@ depending on DISPLAY for keys which are either :foreground or
                           ((eq display 'tty) 2)))
              (color (nth index (assoc value gotham-color-alist))))
         (cond
-         ((or (eq key :foreground) (eq key :background))
+         ((memq key '(:foreground :background :overline :color))
           (setq output (append output (list key color))))
+         ((and (memq key '(:box :underline)) (listp value))
+          (setq output (append output
+                               (list key (my-transform-spec value display)))))
          (t (setq output (append output (list key value))))))
       (setq spec (cddr spec)))
     output))
