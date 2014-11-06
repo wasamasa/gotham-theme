@@ -204,6 +204,14 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-symlink :foreground blue :weight bold)
    (eshell-ls-unreadable :foreground red)
 
+   ;; flymake
+   (flymake-errline :underline (:style wave :color red))
+   (flymake-warnline :underline (:style wave :color orange))
+
+   ;; flyspell
+   (flyspell-duplicate :underline (:style wave :color orange))
+   (flyspell-incorrect :underline (:style wave :color red))
+
    ;; ido
    (ido-first-match :foreground yellow :weight bold)
    (ido-indicator :foreground red)
@@ -285,6 +293,11 @@ depending on DISPLAY for keys which are either :foreground or
    (company-tooltip-common-selection :foreground base7 :background base4 :weight bold)
    (company-tooltip-mouse :foreground base7 :background base4)
    (company-tooltip-selection :foreground base7 :background base4)
+
+   ;; flycheck
+   (flycheck-error :underline (:style wave :color red))
+   (flycheck-info :underline (:style wave :color green))
+   (flycheck-warning :underline (:style wave :color orange))
 
    ;; enh-ruby-mode
    (enh-ruby-heredoc-delimiter-face :foreground green :weight bold)
