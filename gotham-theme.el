@@ -270,6 +270,19 @@ depending on DISPLAY for keys which are either :foreground or
    (ac-candidate-mouse-face :foreground base7 :background base4)
    (ac-selection-face :foreground base7 :background base4)
 
+   ;; company
+   (company-echo-common :foreground red)
+   (company-preview :inherit company-tooltip-selection)
+   (company-preview-common :inherit company-preview :foreground orange)
+   (company-scrollbar-bg :background base2)
+   (company-scrollbar-fg :background base4)
+   (company-tooltip :foreground base6 :background base2)
+   (company-tooltip-annotation :inherit company-tooltip :foreground red)
+   (company-tooltip-common :background base2 :weight bold)
+   (company-tooltip-common-selection :foreground base7 :background base4 :weight bold)
+   (company-tooltip-mouse :foreground base7 :background base4)
+   (company-tooltip-selection :foreground base7 :background base4)
+
    ;; enh-ruby-mode
    (enh-ruby-heredoc-delimiter-face :foreground green :weight bold)
    (enh-ruby-op-face :foreground magenta)
