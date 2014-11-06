@@ -264,6 +264,12 @@ depending on DISPLAY for keys which are either :foreground or
    (font-latex-verbatim-face :inherit font-lock-string-face)
    (font-latex-warning-face :inherit warning)
 
+   ;; auto-complete
+   (ac-completion-face :foreground base7 :background base4)
+   (ac-candidate-face :foreground base6 :background base2)
+   (ac-candidate-mouse-face :foreground base7 :background base4)
+   (ac-selection-face :foreground base7 :background base4)
+
    ;; enh-ruby-mode
    (enh-ruby-heredoc-delimiter-face :foreground green :weight bold)
    (enh-ruby-op-face :foreground magenta)
