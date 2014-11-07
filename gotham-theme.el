@@ -277,9 +277,6 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; auto-complete
    (ac-completion-face :foreground base7 :background base4)
-   (ac-candidate-face :foreground base6 :background base2)
-   (ac-candidate-mouse-face :foreground base7 :background base4)
-   (ac-selection-face :foreground base7 :background base4)
 
    ;; company
    (company-echo-common :foreground red)
@@ -316,6 +313,16 @@ depending on DISPLAY for keys which are either :foreground or
    (markdown-header-face-4 :background base2)
    (markdown-header-face-5 :background base3)
    (markdown-header-face-6 :background base4)
+
+   ;; popup
+   (popup-face :foreground base6 :background base2)
+   (popup-isearch-match :foreground base7 :background base4)
+   (popup-menu-mouse-face :foreground base7 :background base4)
+   (popup-menu-selection-face :foreground base7 :background base4)
+   (popup-scroll-bar-background-face :background base2)
+   (popup-scroll-bar-foreground-face :background base4)
+   (popup-summary-face :foreground base4)
+   (popup-tip-face :foreground base7 :background base4)
 
    ;; rainbow-delimiters
    (rainbow-delimiters-depth-1-face :foreground base6)
