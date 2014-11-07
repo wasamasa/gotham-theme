@@ -285,6 +285,7 @@ depending on DISPLAY for keys which are either :foreground or
    (company-echo-common :foreground red)
    (company-preview :inherit company-tooltip-selection)
    (company-preview-common :inherit company-preview :foreground orange)
+   (company-preview-search :inherit company-preview)
    (company-scrollbar-bg :background base2)
    (company-scrollbar-fg :background base4)
    (company-tooltip :foreground base6 :background base2)
