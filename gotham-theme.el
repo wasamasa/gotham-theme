@@ -232,8 +232,8 @@ depending on DISPLAY for keys which are either :foreground or
    (outline-8 :foreground green)
 
    ;; show-paren-mode
-   (show-paren-match :foreground base2 :background orange :weight normal :inverse-video unspecified)
-   (show-paren-mismatch :foreground base2 :background red :weight normal :inverse-video unspecified)
+   (show-paren-match :foreground base2 :background orange :inverse-video nil)
+   (show-paren-mismatch :foreground base2 :background red :inverse-video nil)
 
    ;; term
    (term-color-black :foreground black :background black)
