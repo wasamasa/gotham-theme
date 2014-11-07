@@ -459,11 +459,11 @@ depending on DISPLAY for keys which are either :foreground or
    (popup-summary-face :foreground base4)
    (popup-tip-face :foreground base7 :background base4)
 
-   ;; FIXME powerline
-   (powerline-active1)
-   (powerline-active2)
-   (powerline-inactive1)
-   (powerline-inactive2)
+   ;; powerline
+   (powerline-active1 :foreground base5 :background base2)
+   (powerline-active2 :foreground base5 :background base3)
+   (powerline-inactive1 :foreground base4 :background base1)
+   (powerline-inactive2 :foreground base4 :background base2)
 
    ;; rainbow-delimiters
    (rainbow-delimiters-depth-1-face :foreground base6)
