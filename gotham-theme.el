@@ -347,6 +347,18 @@ depending on DISPLAY for keys which are either :foreground or
    ;; smartparens
    (sp-show-pair-match-face :inherit show-paren-match)
    (sp-show-pair-mismatch-face :inherit show-paren-mismatch)
+
+   ;; smart-mode-line
+   (sml/charging :foreground green)
+   (sml/discharging :foreground red)
+   (sml/filename :foreground cyan :weight normal)
+   (sml/global :foreground base6)
+   (sml/line-number :foreground base5)
+   (sml/modes :foreground base4)
+   (sml/modified :foreground red :weight bold)
+   (sml/outside-modified :foreground base7 :background red)
+   (sml/prefix :foreground orange)
+   (sml/read-only :foreground yellow)
    ))
 
 ;;;###autoload
