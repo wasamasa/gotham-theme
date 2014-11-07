@@ -112,7 +112,7 @@ depending on DISPLAY for keys which are either :foreground or
           (setq output (append output (list key color))))
          ((and (memq key '(:box :underline)) (listp value))
           (setq output (append output
-                               (list key (my-transform-spec value display)))))
+                               (list key (gotham-transform-spec value display)))))
          (t (setq output (append output (list key value))))))
       (setq spec (cddr spec)))
     output))
