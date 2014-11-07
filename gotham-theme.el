@@ -82,7 +82,7 @@ See `gotham-transform-face' for the transformation, see
 FACE is a list where the first element is the name of the
 affected face and the remaining elements specify the face
 attributes which are transformed into face attributes for both
-graphical and terminal displays. See `gotham-transform-spec' for
+graphical and terminal displays.  See `gotham-transform-spec' for
 the rules that are applied to the face attributes."
   (let* ((name (car face))
          (spec (cdr face))
