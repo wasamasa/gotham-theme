@@ -265,17 +265,17 @@ depending on DISPLAY for keys which are either :foreground or
    ;; which-func-mode
    (which-func :foreground orange)
 
-   ;; FIXME whitespace-mode
-   ;; (whitespace-empty)
-   ;; (whitespace-hspace)
-   ;; (whitespace-indentation)
-   ;; (whitespace-line)
-   ;; (whitespace-newline)
-   ;; (whitespace-space)
-   ;; (whitespace-space-after-tab)
-   ;; (whitespace-space-before-tab)
-   ;; (whitespace-tab)
-   ;; (whitespace-trailing)
+   ;; whitespace-mode
+   (whitespace-empty :foreground base7 :background cyan)
+   (whitespace-hspace :foreground base7 :background magenta)
+   (whitespace-indentation :background yellow)
+   (whitespace-line :foreground base6 :background violet)
+   (whitespace-newline :foreground base3)
+   (whitespace-space :foreground base7 :background base2)
+   (whitespace-space-after-tab :foreground base7 :background orange)
+   (whitespace-space-before-tab :foreground base7 :background orange)
+   (whitespace-tab :background base3)
+   (whitespace-trailing :foreground base7 :background red)
 
    ;; external packages
 
