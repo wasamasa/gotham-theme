@@ -42,8 +42,6 @@
 
 (deftheme gotham "The Gotham color theme")
 
-;; TODO test with ruby, python, tex, c, html
-
 (defcustom gotham-tty-extended-palette nil
   "Use the extended 256-color palette in the terminal?
 When t, assume a regular 256-color palette, otherwise assume a
@@ -52,7 +50,6 @@ customized 16-color palette."
                   (const :tag "256 colors" t))
   :group 'gotham)
 
-(setq gotham-tty-switch 'extended)
 (defvar gotham-color-alist
   `((base0   "#0c1014" ,(if gotham-tty-extended-palette "color-232" "black"))
     (base1   "#11151c" ,(if gotham-tty-extended-palette "color-233" "brightblack"))
