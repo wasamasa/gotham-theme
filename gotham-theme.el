@@ -256,6 +256,12 @@ depending on DISPLAY for keys which are either :foreground or
    (term-default-fg-color :inherit term-color-white)
    (term-default-bg-color :inherit term-color-black)
 
+   ;; widget
+   (widget-button-pressed :foreground red)
+   (widget-documentation :foreground green)
+   (widget-field :background base4)
+   (widget-single-line-field :inherit widget-field)
+
    ;; which-func-mode
    (which-func :foreground orange)
 
