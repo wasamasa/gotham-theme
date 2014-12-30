@@ -188,16 +188,19 @@ depending on DISPLAY for keys which are either :foreground or
    (diff-removed :foreground red)
 
    ;; ediff
-   ;; FIXME add support for threeway diffs (*-diff-c)
    ;; FIXME add support for threeway merges (*-diff-ancestor)
    (ediff-current-diff-A :foreground red :background base2)
    (ediff-current-diff-B :foreground green :background base2)
+   (ediff-current-diff-C :foreground blue :background base2)
    (ediff-even-diff-A :background base2)
    (ediff-even-diff-B :background base2)
+   (ediff-even-diff-C :background base2)
    (ediff-fine-diff-A :foreground red :background base3)
    (ediff-fine-diff-B :foreground green :background base3)
+   (ediff-fine-diff-C :foreground cyan :background base3)
    (ediff-odd-diff-A :background base2)
    (ediff-odd-diff-B :background base2)
+   (ediff-odd-diff-C :background base2)
 
    ;; eshell
    (eshell-prompt :foreground yellow :weight bold)
