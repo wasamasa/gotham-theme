@@ -373,6 +373,9 @@ depending on DISPLAY for keys which are either :foreground or
    (helm-time-zone-home :foreground red)
    (helm-visible-mark :inherit secondary-selection)
 
+   ;; linum-relative
+   (linum-relative-current-face :background base3 :foreground cyan :weight bold)
+
    ;; magit
    (magit-cherry-equivalent :foreground magenta)
    (magit-cherry-unmatched :foreground cyan)
