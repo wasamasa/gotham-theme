@@ -216,6 +216,13 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-symlink :foreground blue :weight bold)
    (eshell-ls-unreadable :foreground red)
 
+   ;; elfeed
+   (elfeed-search-feed-face :foreground orange)
+   (elfeed-search-tag-face :foreground green)
+   (elfeed-search-title-face :foreground base6)
+   (elfeed-search-title-unread-face :foreground base6 :weight bold)
+   (elfeed-search-date-face :foreground violet)
+
    ;; flymake
    (flymake-errline :underline (:style wave :color red))
    (flymake-warnline :underline (:style wave :color orange))
