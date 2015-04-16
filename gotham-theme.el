@@ -535,6 +535,13 @@ depending on DISPLAY for keys which are either :foreground or
    (web-mode-param-name-face :foreground base5)
    (web-mode-symbol-face :foreground yellow)
    (web-mode-whitespace-face :inherit whitespace-space-after-tab)
+
+   ;; undo-tree
+   (undo-tree-visualizer-default-face :inherit shadow)
+   (undo-tree-visualizer-current-face :foreground orange)
+   (undo-tree-visualizer-active-branch-face :foreground unspecified :weight bold)
+   (undo-tree-visualizer-register-face :foreground yellow)
+   (undo-tree-visualizer-unmodified-face :foreground cyan)
    ))
 
 ;;;###autoload
