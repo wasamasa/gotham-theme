@@ -376,6 +376,20 @@ depending on DISPLAY for keys which are either :foreground or
    (helm-time-zone-home :foreground red)
    (helm-visible-mark :inherit secondary-selection)
 
+   ;; js2-mode
+   (js2-error :inherit error)
+   (js2-external-variable :foreground orange)
+   (js2-function-param :foreground green)
+   (js2-instance-member :foreground magenta)
+   (js2-jsdoc-html-tag-delimiter :foreground green)
+   (js2-jsdoc-html-tag-name :foreground yellow)
+   (js2-jsdoc-tag :foreground cyan)
+   (js2-jsdoc-type :foreground blue)
+   (js2-jsdoc-value :foreground violet)
+   (js2-private-function-call :foreground yellow)
+   (js2-private-member :foreground orange)
+   (js2-warning :underline (:style wave :color orange))
+
    ;; magit
    (magit-cherry-equivalent :foreground magenta)
    (magit-cherry-unmatched :foreground cyan)
