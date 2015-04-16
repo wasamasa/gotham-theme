@@ -516,6 +516,25 @@ depending on DISPLAY for keys which are either :foreground or
    (sml/outside-modified :foreground base7 :background red)
    (sml/prefix :foreground orange)
    (sml/read-only :foreground yellow)
+
+   ;; web-mode
+   (web-mode-block-attr-name-face :foreground green)
+   (web-mode-block-attr-value-face :foreground cyan)
+   (web-mode-block-face :background base1)
+   (web-mode-comment-keyword-face :weight bold)
+   (web-mode-current-column-highlight-face :inherit highlight)
+   (web-mode-current-element-highlight-face :inherit web-mode-block-face)
+   (web-mode-doctype-face :foreground base5)
+   (web-mode-error-face :inherit error)
+   (web-mode-html-attr-name-face :foreground base5)
+   (web-mode-html-tag-bracket-face :foreground magenta)
+   (web-mode-html-tag-face :foreground violet)
+   (web-mode-inlay-face :inherit web-mode-block-face)
+   (web-mode-json-context-face :inherit web-mode-json-key-face)
+   (web-mode-json-key-face :foreground magenta)
+   (web-mode-param-name-face :foreground base5)
+   (web-mode-symbol-face :foreground yellow)
+   (web-mode-whitespace-face :inherit whitespace-space-after-tab)
    ))
 
 ;;;###autoload
