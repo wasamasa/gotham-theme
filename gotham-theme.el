@@ -216,6 +216,13 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-symlink :foreground blue :weight bold)
    (eshell-ls-unreadable :foreground red)
 
+   ;; elfeed
+   (elfeed-search-feed-face :foreground orange)
+   (elfeed-search-tag-face :foreground green)
+   (elfeed-search-title-face :foreground base6)
+   (elfeed-search-title-unread-face :foreground base6 :weight bold)
+   (elfeed-search-date-face :foreground violet)
+
    ;; flymake
    (flymake-errline :underline (:style wave :color red))
    (flymake-warnline :underline (:style wave :color orange))
@@ -388,6 +395,9 @@ depending on DISPLAY for keys which are either :foreground or
    (js2-private-function-call :foreground yellow)
    (js2-private-member :foreground orange)
    (js2-warning :underline (:style wave :color orange))
+
+   ;; linum-relative
+   (linum-relative-current-face :background base3 :foreground cyan :weight bold)
 
    ;; magit
    (magit-cherry-equivalent :foreground magenta)
