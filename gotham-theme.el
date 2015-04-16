@@ -243,6 +243,9 @@ depending on DISPLAY for keys which are either :foreground or
    (outline-7 :foreground orange)
    (outline-8 :foreground green)
 
+   ;; pulse
+   (pulse-highlight-start-face :background base4)
+
    ;; show-paren-mode
    (show-paren-match :foreground base2 :background orange :inverse-video nil)
    (show-paren-mismatch :foreground base2 :background red :inverse-video nil)
