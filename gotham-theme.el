@@ -346,7 +346,7 @@ depending on DISPLAY for keys which are either :foreground or
    (helm-buffer-directory :weight bold)
    (helm-buffer-not-saved :foreground red)
    (helm-buffer-process :foreground orange)
-   (helm-buffer-saved-out :foregrount base7 :background red)
+   (helm-buffer-saved-out :foreground base7 :background red)
    (helm-buffer-size :foreground magenta)
    (helm-candidate-number :background base3)
    (helm-ff-directory :weight bold)
