@@ -346,6 +346,14 @@ depending on DISPLAY for keys which are either :foreground or
    (company-tooltip-mouse :foreground base7 :background base4)
    (company-tooltip-selection :foreground base7 :background base4)
 
+   ;; ecb
+   (ecb-default-highlight-face :background violet)
+   (ecb-method-non-semantic-face :foreground orange)
+   (ecb-mode-line-prefix-face :foreground green)
+   (ecb-tag-header-face :foreground base2 :background cyan)
+   (ecb-tree-guide-line-face :foreground base4)
+   (ecb-type-tag-group-face :foreground magenta)
+
    ;; flycheck
    (flycheck-error :underline (:style wave :color red))
    (flycheck-info :underline (:style wave :color green))
