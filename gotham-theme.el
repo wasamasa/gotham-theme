@@ -428,6 +428,7 @@ depending on DISPLAY for keys which are either :foreground or
    (magit-signature-bad :foreground red)
    (magit-signature-good :foreground green)
    (magit-signature-untrusted :foreground cyan)
+   (git-rebase-hash :foreground orange)
 
    ;; markdown-mode
    (markdown-header-face-1 :background base2)
