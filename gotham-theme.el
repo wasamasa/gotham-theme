@@ -268,6 +268,15 @@ depending on DISPLAY for keys which are either :foreground or
    (senator-momentary-highlight-face :inherit highlight)
    (srecode-field-face :underline green)
 
+   ;; speedbar
+   (speedbar-button-face :foreground base5)
+   (speedbar-directory-face :foreground base5 :weight bold)
+   (speedbar-file-face :foreground green)
+   (speedbar-highlight-face :inherit highlight)
+   (speedbar-selected-face :inherit highlight)
+   (speedbar-separator-face :background blue :overline t)
+   (speedbar-tag-face :foreground orange)
+
    ;; show-paren-mode
    (show-paren-match :foreground base2 :background orange :inverse-video nil)
    (show-paren-mismatch :foreground base2 :background red :inverse-video nil)
