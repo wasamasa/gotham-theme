@@ -254,6 +254,20 @@ depending on DISPLAY for keys which are either :foreground or
    ;; pulse
    (pulse-highlight-start-face :background base4)
 
+   ;; semantic
+   (semantic-complete-inline-face :underline base5)
+   (semantic-decoration-on-fileless-includes :foreground base4 :background yellow)
+   (semantic-decoration-on-private-members-face :background base1)
+   (semantic-decoration-on-protected-members-face :background base1)
+   (semantic-decoration-on-unknown-includes :background red)
+   (semantic-decoration-on-unparsed-includes :background orange)
+   (semantic-highlight-edits-face :inherit highlight)
+   (semantic-highlight-func-current-tag-face :inherit highlight)
+   (semantic-tag-boundary-face :overline cyan)
+   (semantic-unmatched-syntax-face :underline red)
+   (senator-momentary-highlight-face :inherit highlight)
+   (srecode-field-face :underline green)
+
    ;; show-paren-mode
    (show-paren-match :foreground base2 :background orange :inverse-video nil)
    (show-paren-mismatch :foreground base2 :background red :inverse-video nil)
