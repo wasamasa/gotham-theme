@@ -1,6 +1,6 @@
 ;;; gotham-theme.el --- A very dark Emacs color theme.
 
-;; Copyright (C) 2014 Vasilij Schneidermann <v.schneidermann@gmail.com>
+;; Copyright (C) 2014-2015 Vasilij Schneidermann <v.schneidermann@gmail.com>
 
 ;; Author: Vasilij Schneidermann <v.schneidermann@gmail.com>
 ;; URL: https://github.com/wasamasa/gotham-theme
