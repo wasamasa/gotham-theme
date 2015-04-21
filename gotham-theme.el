@@ -178,7 +178,7 @@ depending on DISPLAY for keys which are either :foreground or
    (compilation-mode-line-fail :foreground unspecified :inherit compilation-error)
    (compilation-mode-line-exit :foreground unspecified :inherit compilation-info)
 
-   ;;diff
+   ;; diff
    (diff-added :foreground green)
    (diff-changed :foreground cyan)
    (diff-header :foreground yellow)
@@ -187,6 +187,23 @@ depending on DISPLAY for keys which are either :foreground or
    (diff-refine-change :weight bold)
    (diff-refine-removed :weight bold)
    (diff-removed :foreground red)
+
+   ;; erc
+   (erc-current-nick-face :foreground base5)
+   (erc-dangerous-host-face :foreground red)
+   (erc-direct-msg-face :foreground orange)
+   (erc-error-face :inherit error)
+   (erc-fool-face :inherit shadow)
+   (erc-header-line :foreground base2 :background magenta)
+   (erc-input-face :inherit default)
+   (erc-inverse-face :inverse-video t)
+   (erc-keyword-face :foreground green)
+   (erc-my-nick-face :foreground yellow)
+   (erc-nick-msg-face :foreground orange)
+   (erc-notice-face :foreground cyan)
+   (erc-pal-face :foreground yellow)
+   (erc-prompt-face :foreground orange)
+   (erc-timestamp-face :foreground magenta :weight bold)
 
    ;; ediff
    ;; FIXME add support for threeway merges (*-diff-ancestor)
