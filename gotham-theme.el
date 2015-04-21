@@ -449,6 +449,23 @@ depending on DISPLAY for keys which are either :foreground or
    (helm-time-zone-home :foreground red)
    (helm-visible-mark :inherit secondary-selection)
 
+   ;; jabber
+   ;; TODO
+   (jabber-activity-face :foreground green)
+   (jabber-activity-personal-face :foreground cyan)
+   (jabber-chat-error :inherit error)
+   (jabber-chat-prompt-foreign :foreground green)
+   (jabber-chat-prompt-local :foreground orange)
+   (jabber-chat-prompt-system :foreground cyan)
+   (jabber-rare-time-face :foreground magenta :weight bold)
+   (jabber-roster-user-away :foreground violet)
+   (jabber-roster-user-chatty :foreground yellow)
+   (jabber-roster-user-dnd :foreground orange)
+   (jabber-roster-user-error :foreground red)
+   (jabber-roster-user-offline :inherit shadow)
+   (jabber-roster-user-online :foreground cyan)
+   (jabber-roster-user-xa :foreground magenta)
+
    ;; js2-mode
    (js2-error :inherit error)
    (js2-external-variable :foreground orange)
