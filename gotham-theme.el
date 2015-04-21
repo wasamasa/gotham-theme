@@ -341,6 +341,14 @@ depending on DISPLAY for keys which are either :foreground or
    ;; auto-complete
    (ac-completion-face :foreground base7 :background base4)
 
+   ;; circe
+   (circe-fool-face :inherit shadow)
+   (circe-highlight-nick-face :foreground base5 :weight bold)
+   (circe-prompt-face :foreground orange)
+   (circe-server-face :foreground cyan)
+   (circe-topic-diff-new-face :foreground base2 :background green)
+   (circe-topic-diff-removed-face :foreground base0 :background red)
+
    ;; company
    (company-echo-common :foreground red)
    (company-preview :inherit company-tooltip-selection)
