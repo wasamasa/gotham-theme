@@ -120,7 +120,7 @@ depending on DISPLAY for keys which are either :foreground or
    (button :foreground base4 :box t)
    (shadow :foreground base4)
    (highlight :background base2)
-   (link :foreground orange)
+   (link :foreground orange :underline t)
    (link-visited :foreground yellow)
    (cursor :background base6)
    (region :foreground unspecified :background base3)
