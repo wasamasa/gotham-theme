@@ -449,6 +449,11 @@ depending on DISPLAY for keys which are either :foreground or
    ;; linum-relative
    (linum-relative-current-face :background base3 :foreground cyan :weight bold)
 
+   ;; lui
+   (lui-button-face :inherit link)
+   (lui-highlight-face :foreground base7 :weight bold)
+   (lui-time-stamp-face :foreground magenta :weight bold)
+
    ;; magit
    (magit-cherry-equivalent :foreground magenta)
    (magit-cherry-unmatched :foreground cyan)
