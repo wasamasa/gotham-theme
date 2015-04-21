@@ -254,6 +254,16 @@ depending on DISPLAY for keys which are either :foreground or
    ;; pulse
    (pulse-highlight-start-face :background base4)
 
+   ;; rcirc
+   (rcirc-bright-nick :foreground base7)
+   (rcirc-dim-nick :inherit shadow)
+   (rcirc-my-nick :foreground base5)
+   (rcirc-nick-in-message :inherit rcirc-my-nick)
+   (rcirc-other-nick :foreground magenta)
+   (rcirc-prompt :foreground orange)
+   (rcirc-server :foreground cyan)
+   (rcirc-url :inherit link)
+
    ;; semantic
    (semantic-complete-inline-face :underline base5)
    (semantic-decoration-on-fileless-includes :foreground base4 :background yellow)
