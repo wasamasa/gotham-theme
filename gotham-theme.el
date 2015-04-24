@@ -453,8 +453,14 @@ depending on DISPLAY for keys which are either :foreground or
    (helm-time-zone-home :foreground red)
    (helm-visible-mark :inherit secondary-selection)
 
+   ;; hydra
+   (hydra-face-red :foreground red :bold t)
+   (hydra-face-blue :foreground cyan :bold t)
+   (hydra-face-teal :foreground green :bold t)
+   (hydra-face-pink :foreground orange :bold t)
+   (hydra-face-amaranth :foreground magenta :bold t)
+
    ;; jabber
-   ;; TODO
    (jabber-activity-face :foreground green)
    (jabber-activity-personal-face :foreground cyan)
    (jabber-chat-error :inherit error)
