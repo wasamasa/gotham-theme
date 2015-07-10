@@ -625,7 +625,7 @@ depending on DISPLAY for keys which are either :foreground or
    (popup-menu-selection-face :foreground base7 :background base4)
    (popup-scroll-bar-background-face :background base2)
    (popup-scroll-bar-foreground-face :background base4)
-   (popup-summary-face :foreground base4)
+   (popup-summary-face :foreground base4 :background base4)
    (popup-tip-face :foreground base7 :background base4)
 
    ;; powerline
