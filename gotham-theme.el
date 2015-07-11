@@ -581,6 +581,10 @@ depending on DISPLAY for keys which are either :foreground or
    (markdown-header-face-5 :background base3)
    (markdown-header-face-6 :background base4)
 
+   ;; mu4e
+   (mu4e-header-highlight-face :underline nil :background base1)
+   (mu4e-header-key-face :foreground blue :weight bold)
+
    ;; org-mode
    (org-agenda-dimmed-todo-face :inherit shadow)
    (org-agenda-done :foreground green)
