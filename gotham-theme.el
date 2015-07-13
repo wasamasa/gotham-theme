@@ -582,8 +582,10 @@ depending on DISPLAY for keys which are either :foreground or
    (markdown-header-face-6 :background base4)
 
    ;; mu4e
-   (mu4e-header-highlight-face :underline nil :background base1)
+   (mu4e-header-highlight-face :inherit hl-line)
    (mu4e-header-key-face :foreground blue :weight bold)
+   (mu4e-compose-separator-face :inherit font-lock-comment-face)
+   (mu4e-region-code :inherit region)
 
    ;; org-mode
    (org-agenda-dimmed-todo-face :inherit shadow)
