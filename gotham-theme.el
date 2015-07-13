@@ -581,6 +581,10 @@ depending on DISPLAY for keys which are either :foreground or
    (markdown-header-face-5 :background base3)
    (markdown-header-face-6 :background base4)
 
+   ;; message-mode
+   (message-header-name :foreground blue :weight bold)
+   (message-header-other :inherit font-lock-variable-name-face)
+
    ;; mu4e
    (mu4e-header-highlight-face :inherit hl-line)
    (mu4e-header-key-face :foreground blue :weight bold)
