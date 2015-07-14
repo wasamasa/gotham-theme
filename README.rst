@@ -21,8 +21,8 @@ enable 256 color support by customizing
 ``gotham-tty-extended-palette`` in exchange for a negligible amount of
 color degradation.
 
-Screenshot
-----------
+Screenshots
+-----------
 
 .. image:: https://raw.github.com/wasamasa/gotham-theme/master/img/scrot.png
 
