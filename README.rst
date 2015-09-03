@@ -26,7 +26,8 @@ Screenshots
 
 .. image:: https://raw.github.com/wasamasa/gotham-theme/master/img/scrot.png
 
-Thanks to @norbertklar for the following three!
+Thanks to `Norbert Klar <https://github.com/norbertklar>`_ for the
+following three!
 
 .. image:: https://raw.github.com/wasamasa/gotham-theme/master/img/go.png
 
