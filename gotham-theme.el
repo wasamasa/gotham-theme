@@ -38,6 +38,7 @@
 
 (defgroup gotham nil
   "A very dark Emacs theme"
+  :group 'themes
   :prefix "gotham-")
 
 (deftheme gotham "The Gotham color theme")
