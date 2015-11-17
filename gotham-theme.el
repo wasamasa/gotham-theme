@@ -334,8 +334,7 @@ depending on DISPLAY for keys which are either :foreground or
    (term-color-magenta :foreground magenta :background magenta)
    (term-color-cyan :foreground cyan :background cyan)
    (term-color-white :foreground base6 :background base6)
-   (term-default-fg-color :inherit term-color-white)
-   (term-default-bg-color :inherit term-color-black)
+   (term :foreground nil :background nil :inherit default)
 
    ;; widget
    (widget-button-pressed :foreground red)
