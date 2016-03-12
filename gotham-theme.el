@@ -685,6 +685,9 @@ depending on DISPLAY for keys which are either :foreground or
    (sml/prefix :foreground orange)
    (sml/read-only :foreground yellow)
 
+   ;; volatile-highlights
+   (vhl/default-face :background base2)
+
    ;; web-mode
    (web-mode-block-attr-name-face :foreground green)
    (web-mode-block-attr-value-face :foreground cyan)
