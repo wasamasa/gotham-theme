@@ -362,6 +362,9 @@ depending on DISPLAY for keys which are either :foreground or
    (ace-jump-face-foreground :foreground red :background unspecified)
    (ace-jump-face-background :foreground base4 :background unspecified)
 
+   ;; anzu
+   (anzu-mode-line :foreground orange)
+
    ;; auctex
    (font-latex-bold-face :inherit bold)
    (font-latex-doctex-documentation-face :inherit highlight)
