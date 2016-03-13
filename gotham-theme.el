@@ -362,6 +362,14 @@ depending on DISPLAY for keys which are either :foreground or
    (ace-jump-face-foreground :foreground red :background unspecified)
    (ace-jump-face-background :foreground base4 :background unspecified)
 
+   ;; anzu
+   (anzu-mode-line :foreground orange :weight bold)
+   (anzu-replace-highlight :foreground base6 :background red)
+   (anzu-match-1 :foreground base0 :background green)
+   (anzu-match-2 :foreground base0 :background yellow)
+   (anzu-match-3 :foreground base0 :background cyan)
+   (anzu-replace-to :foreground yellow :background base3)
+
    ;; auctex
    (font-latex-bold-face :inherit bold)
    (font-latex-doctex-documentation-face :inherit highlight)
@@ -684,6 +692,9 @@ depending on DISPLAY for keys which are either :foreground or
    (sml/outside-modified :foreground base7 :background red)
    (sml/prefix :foreground orange)
    (sml/read-only :foreground yellow)
+
+   ;; volatile-highlights
+   (vhl/default-face :background base2)
 
    ;; web-mode
    (web-mode-block-attr-name-face :foreground green)
