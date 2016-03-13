@@ -479,6 +479,19 @@ depending on DISPLAY for keys which are either :foreground or
    (hydra-face-pink :foreground orange :bold t)
    (hydra-face-amaranth :foreground magenta :bold t)
 
+   ;; ivy
+   (ivy-confirm-face :foreground cyan)
+   (ivy-current-match :foreground base0 :background orange)
+   (ivy-match-required :foreground red)
+   (ivy-minibuffer-match-face-1 :foreground base0 :background red)
+   (ivy-minibuffer-match-face-2 :foreground base0 :background yellow)
+   (ivy-minibuffer-match-face-3 :foreground base0 :background green)
+   (ivy-minibuffer-match-face-4 :foreground base0 :background magenta)
+   (ivy-modified-buffer :foreground orange)
+   (ivy-remote :foreground violet)
+   (ivy-subdir :foreground red)
+   (ivy-virtual :foreground green)
+
    ;; jabber
    (jabber-activity-face :foreground green)
    (jabber-activity-personal-face :foreground cyan)
