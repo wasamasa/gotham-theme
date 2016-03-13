@@ -415,7 +415,7 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; diff-hl
    (diff-hl-change :background blue)
-   (diff-hl-delete-face :foreground red)
+   (diff-hl-delete :foreground red)
    (diff-hl-insert :foreground orange)
 
    ;; ecb
