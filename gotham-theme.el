@@ -416,7 +416,7 @@ depending on DISPLAY for keys which are either :foreground or
    ;; diff-hl
    (diff-hl-change :background blue)
    (diff-hl-delete :foreground red)
-   (diff-hl-insert :foreground orange)
+   (diff-hl-insert :foreground green)
 
    ;; ecb
    (ecb-default-highlight-face :background violet)
@@ -712,7 +712,7 @@ depending on DISPLAY for keys which are either :foreground or
    (sml/read-only :foreground yellow)
 
    ;; volatile-highlights
-   (vhl/default-face :background base2)
+   (vhl/default-face :inherit highlight)
 
    ;; web-mode
    (web-mode-block-attr-name-face :foreground green)
