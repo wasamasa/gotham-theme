@@ -413,6 +413,11 @@ depending on DISPLAY for keys which are either :foreground or
    (company-tooltip-mouse :foreground base7 :background base4)
    (company-tooltip-selection :foreground base7 :background base4)
 
+   ;; diff-hl
+   (diff-hl-change :background blue)
+   (diff-hl-delete-face :foreground red)
+   (diff-hl-insert :foreground orange)
+
    ;; ecb
    (ecb-default-highlight-face :background violet)
    (ecb-method-non-semantic-face :foreground orange)
