@@ -486,7 +486,7 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; ivy
    (ivy-confirm-face :foreground cyan)
-   (ivy-current-match :foreground base6 :background base3)
+   (ivy-current-match :foreground base7 :background base3)
    (ivy-match-required :foreground red)
    (ivy-minibuffer-match-face-1 :foreground base0 :background base4)
    (ivy-minibuffer-match-face-2 :foreground base0 :background magenta)
