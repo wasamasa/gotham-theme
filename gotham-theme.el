@@ -486,13 +486,13 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; ivy
    (ivy-confirm-face :foreground cyan)
-   (ivy-current-match :foreground base0 :background orange)
+   (ivy-current-match :foreground base6 :background base3)
    (ivy-match-required :foreground red)
-   (ivy-minibuffer-match-face-1 :foreground base0 :background red)
-   (ivy-minibuffer-match-face-2 :foreground base0 :background yellow)
+   (ivy-minibuffer-match-face-1 :foreground base0 :background base4)
+   (ivy-minibuffer-match-face-2 :foreground base0 :background magenta)
    (ivy-minibuffer-match-face-3 :foreground base0 :background green)
-   (ivy-minibuffer-match-face-4 :foreground base0 :background magenta)
-   (ivy-modified-buffer :foreground orange)
+   (ivy-minibuffer-match-face-4 :foreground base0 :background base5)
+   (ivy-modified-buffer :foreground yellow)
    (ivy-remote :foreground violet)
    (ivy-subdir :foreground red)
    (ivy-virtual :foreground green)
