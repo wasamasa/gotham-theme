@@ -618,6 +618,14 @@ depending on DISPLAY for keys which are either :foreground or
    (markdown-header-face-5 :background base3)
    (markdown-header-face-6 :background base4)
 
+   ;; macrostep
+   (macrostep-expansion-highlight-face :inherit highlight)
+   (macrostep-gensym-1 :foreground blue :weight bold :box t)
+   (macrostep-gensym-2 :foreground green :weight bold :box t)
+   (macrostep-gensym-3 :foreground yellow :weight bold :box t)
+   (macrostep-gensym-4 :foreground red :weight bold :box t)
+   (macrostep-gensym-5 :foreground magenta :weight bold :box t)
+
    ;; mu4e
    (mu4e-header-highlight-face :inherit hl-line)
    (mu4e-region-code :inherit region)
