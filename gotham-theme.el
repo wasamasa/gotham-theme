@@ -414,7 +414,7 @@ depending on DISPLAY for keys which are either :foreground or
    (company-tooltip-selection :foreground base7 :background base4)
 
    ;; diff-hl
-   (diff-hl-change :background blue)
+   (diff-hl-change :foreground cyan)
    (diff-hl-delete :foreground red)
    (diff-hl-insert :foreground green)
 
