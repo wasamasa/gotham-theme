@@ -707,7 +707,7 @@ depending on DISPLAY for keys which are either :foreground or
    (slime-error-face :underline (:style wave :color red))
    (slime-note-face :underline (:style wave :color magenta))
    (slime-style-warning-face :underline (:style wave :color green))
-   (slime-warning-face :underline (:style wave :color yellow))
+   (slime-warning-face :underline (:style wave :color orange))
    (sldb-restartable-frame-line-face :foreground green)
    (slime-repl-inputed-output-face :foreground red)
 
