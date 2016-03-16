@@ -362,6 +362,10 @@ depending on DISPLAY for keys which are either :foreground or
    (ace-jump-face-foreground :foreground red :background unspecified)
    (ace-jump-face-background :foreground base4 :background unspecified)
 
+   ;; ace-window
+   (aw-background-face :foreground base3)
+   (aw-leading-char-face :foreground base7 :background base3)
+
    ;; anzu
    (anzu-mode-line :foreground orange :weight bold)
    (anzu-replace-highlight :foreground base6 :background red)
@@ -390,6 +394,13 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; auto-complete
    (ac-completion-face :foreground base7 :background base4)
+
+   ;; avy
+   (avy-background-face :foreground base3)
+   (avy-lead-face :foreground base7 :background base3)
+   (avy-lead-face-0 :foreground base0 :background base4)
+   (avy-lead-face-1 :foreground base0 :background magenta)
+   (avy-lead-face-2 :foreground base0 :background green)
 
    ;; circe
    (circe-fool-face :inherit shadow)
