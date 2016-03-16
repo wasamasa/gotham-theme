@@ -225,6 +225,9 @@ depending on DISPLAY for keys which are either :foreground or
    (ediff-odd-diff-C :background base2)
    ;(ediff-odd-diff-Ancestor)
 
+   ;; eldoc
+   (eldoc-highlight-function-argument :foreground orange :weight bold)
+
    ;; eshell
    (eshell-prompt :foreground yellow :weight bold)
    (eshell-ls-archive :foreground magenta)
@@ -450,6 +453,13 @@ depending on DISPLAY for keys which are either :foreground or
    (enh-ruby-string-delimiter-face :foreground green)
    (erm-syn-errline :foreground red)
    (erm-syn-warnline :foreground orange)
+
+   ;; geiser
+   (geiser-font-lock-autodoc-current-arg :foreground orange)
+   (geiser-font-lock-autodoc-identifier :foreground magenta)
+   (geiser-font-lock-doc-link :foreground blue :underline t)
+   (geiser-font-lock-error-link :foreground cyan :underline t)
+   (geiser-font-lock-xref-link :foreground green :underline t)
 
    ;; helm
    (helm-bookmark-addressbook :foreground orange)
