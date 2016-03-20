@@ -366,6 +366,17 @@ depending on DISPLAY for keys which are either :foreground or
    (rcirc-server :foreground cyan)
    (rcirc-url :inherit link)
 
+   ;; ruler
+   (ruler-mode-column-number :foreground base6)
+   (ruler-mode-comment-column :foreground base4)
+   (ruler-mode-current-column :foreground yellow)
+   (ruler-mode-default :foreground base5 :background base2)
+   (ruler-mode-fill-column :foreground red)
+   (ruler-mode-fringes :foreground green)
+   (ruler-mode-goal-column :foreground orange)
+   (ruler-mode-pad :foreground cyan)
+   (ruler-mode-tab-stop :foreground magenta)
+
    ;; semantic
    (semantic-complete-inline-face :underline base5)
    (semantic-decoration-on-fileless-includes :foreground base4 :background yellow)
