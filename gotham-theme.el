@@ -616,6 +616,11 @@ depending on DISPLAY for keys which are either :foreground or
    ;; linum-relative
    (linum-relative-current-face :background base3 :foreground cyan :weight bold)
 
+   ;; lispy
+   (lispy-command-name-face :inherit font-lock-function-name-face :background base2)
+   (lispy-cursor-face :foreground base0 :background base6)
+   (lispy-face-hint :inherit highlight :foreground green)
+
    ;; lui
    (lui-button-face :inherit link)
    (lui-highlight-face :foreground base7 :weight bold)
