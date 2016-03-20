@@ -732,6 +732,25 @@ depending on DISPLAY for keys which are either :foreground or
    (mu4e-header-highlight-face :inherit hl-line)
    (mu4e-region-code :inherit region)
 
+   ;; neotree
+   (neo-banner-face :foreground orange :weight bold)
+   (neo-button-face :foreground blue)
+   (neo-dir-link-face :foreground magenta :weight bold)
+   (neo-expand-btn-face :foreground yellow)
+   (neo-file-link-face :foreground green)
+   (neo-header-face :foreground yellow)
+   (neo-root-dir-face :foreground red :weight bold)
+   (neo-vc-added-face :foreground yellow)
+   (neo-vc-conflict-face :foreground red)
+   (neo-vc-default-face :foreground base6)
+   (neo-vc-edited-face :foreground cyan)
+   (neo-vc-ignored-face :foreground blue)
+   (neo-vc-missing-face :foreground red)
+   (neo-vc-needs-merge-face :foreground red)
+   (neo-vc-unlocked-changes-face :foreground base7 :background blue)
+   (neo-vc-up-to-date-face :foreground green)
+   (neo-vc-user-face :inherit italic :foreground red)
+
    ;; org-mode
    (org-agenda-dimmed-todo-face :inherit shadow)
    (org-agenda-done :foreground green)
