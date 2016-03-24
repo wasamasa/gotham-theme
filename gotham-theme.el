@@ -328,6 +328,16 @@ depending on DISPLAY for keys which are either :foreground or
    (ido-only-match :foreground green)
    (ido-subdir :foreground red)
 
+   ;; info
+   (Info-quoted :inherit italic :foreground orange :weight bold)
+   (info-menu-header :foreground green :weight bold :height 1.4 )
+   (info-menu-star :foreground red)
+   (info-node :inherit italic :foreground base6 :weight bold)
+   (info-title-1 :weight bold :height 1.6)
+   (info-title-2 :weight bold :height 1.4)
+   (info-title-3 :weight bold :height 1.2)
+   (info-title-4 :weight bold)
+
    ;; makefile
    (makefile-space :background magenta)
 
