@@ -189,6 +189,10 @@ depending on DISPLAY for keys which are either :foreground or
    (diff-refine-removed :weight bold)
    (diff-removed :foreground red)
 
+   ;; dired-async
+   (dired-async-message :foreground yellow)
+   (dired-async-mode-message :foreground orange)
+
    ;; erc
    (erc-current-nick-face :foreground base5)
    (erc-dangerous-host-face :foreground red)
