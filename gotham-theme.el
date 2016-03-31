@@ -318,7 +318,7 @@ depending on DISPLAY for keys which are either :foreground or
    (gnus-summary-normal-read :foreground green)
    (gnus-summary-normal-ticked :foreground base7)
    (gnus-summary-normal-undownloaded :foreground base5)
-   (gnus-summary-normal-unread :foreground base4)
+   (gnus-summary-normal-unread :foreground cyan)
    (gnus-server-agent :foreground base6 :weight bold)
    (gnus-server-closed :inherit italic :foreground base4)
    (gnus-server-cloud :foreground green :weight bold)
