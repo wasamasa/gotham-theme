@@ -333,7 +333,7 @@ depending on DISPLAY for keys which are either :foreground or
    (ido-subdir :foreground red)
 
    ;; info
-   (Info-quoted :inherit italic :foreground orange :weight bold)
+   (Info-quoted :inherit font-lock-constant-face)
    (info-menu-header :foreground green :weight bold :height 1.4 )
    (info-menu-star :foreground red)
    (info-node :inherit italic :foreground base6 :weight bold)
