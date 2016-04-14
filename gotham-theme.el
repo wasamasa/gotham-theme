@@ -189,10 +189,6 @@ depending on DISPLAY for keys which are either :foreground or
    (diff-refine-removed :weight bold)
    (diff-removed :foreground red)
 
-   ;; dired-async
-   (dired-async-message :foreground yellow)
-   (dired-async-mode-message :foreground orange)
-
    ;; erc
    (erc-current-nick-face :foreground base5)
    (erc-dangerous-host-face :foreground red)
@@ -517,10 +513,22 @@ depending on DISPLAY for keys which are either :foreground or
    (company-tooltip-mouse :foreground base7 :background base4)
    (company-tooltip-selection :foreground base7 :background base4)
 
+   ;; debbugs
+   (debbugs-gnu-done :foreground green)
+   (debbugs-gnu-handled :foreground yellow)
+   (debbugs-gnu-new :foreground red)
+   (debbugs-gnu-pending :foreground orange)
+   (debbugs-gnu-stale :foreground blue)
+   (debbugs-gnu-tagged :foreground red)
+
    ;; diff-hl
    (diff-hl-change :foreground cyan)
    (diff-hl-delete :foreground red)
    (diff-hl-insert :foreground green)
+
+   ;; dired-async
+   (dired-async-message :foreground yellow)
+   (dired-async-mode-message :foreground orange)
 
    ;; ecb
    (ecb-default-highlight-face :background violet)
