@@ -527,6 +527,7 @@ depending on DISPLAY for keys which are either :foreground or
    (diff-hl-insert :foreground green)
 
    ;; dired-async
+   (dired-async-failures :foreground red)
    (dired-async-message :foreground yellow)
    (dired-async-mode-message :foreground orange)
 
