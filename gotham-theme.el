@@ -243,6 +243,9 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-unreadable :foreground red)
 
    ;; elfeed
+   (elfeed-log-error-level-face :foreground red)
+   (elfeed-log-info-level-face :foreground magenta)
+   (elfeed-log-warn-level-face :foreground yellow)
    (elfeed-search-feed-face :foreground orange)
    (elfeed-search-tag-face :foreground green)
    (elfeed-search-title-face :foreground base6)
