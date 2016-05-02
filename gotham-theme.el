@@ -530,9 +530,9 @@ depending on DISPLAY for keys which are either :foreground or
    (diff-hl-insert :foreground green)
 
    ;; dired-async
-   (dired-async-failures :foreground red)
-   (dired-async-message :foreground yellow)
-   (dired-async-mode-message :foreground orange)
+   (dired-async-failures :inherit error)
+   (dired-async-message :inherit warning)
+   (dired-async-mode-message :inherit success)
 
    ;; ecb
    (ecb-default-highlight-face :background violet)
