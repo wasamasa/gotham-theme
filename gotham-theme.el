@@ -542,10 +542,19 @@ depending on DISPLAY for keys which are either :foreground or
    (ecb-tree-guide-line-face :foreground base4)
    (ecb-type-tag-group-face :foreground magenta)
 
-   ;; flycheck
-   (flycheck-error :underline (:style wave :color red))
-   (flycheck-info :underline (:style wave :color green))
-   (flycheck-warning :underline (:style wave :color orange))
+   ;; emms
+   (emms-playlist-track-face :foreground blue)
+   (emms-playlist-selected-face :foreground base6)
+   (emms-browser-album-face :foreground cyan :height 1.1)
+   (emms-browser-artist-face :foreground cyan :height 1.3)
+   (emms-browser-composer-face :foreground cyan :height 1.3)
+   (emms-browser-performer-face :foreground cyan :height 1.3)
+   (emms-browser-track-face :foreground blue :height 1.0)
+   (emms-browser-year/genre-face :foreground cyan :height 1.5)
+   (emms-metaplaylist-mode-current-face :foreground red)
+   (emms-metaplaylist-mode-face :foreground base6)
+   (emms-stream-name-face :foreground cyan)
+   (emms-stream-url-face :foreground violet)
 
    ;; enh-ruby-mode
    (enh-ruby-heredoc-delimiter-face :foreground green :weight bold)
@@ -555,6 +564,11 @@ depending on DISPLAY for keys which are either :foreground or
    (enh-ruby-string-delimiter-face :foreground green)
    (erm-syn-errline :foreground red)
    (erm-syn-warnline :foreground orange)
+
+   ;; flycheck
+   (flycheck-error :underline (:style wave :color red))
+   (flycheck-info :underline (:style wave :color green))
+   (flycheck-warning :underline (:style wave :color orange))
 
    ;; geiser
    (geiser-font-lock-autodoc-current-arg :foreground orange)
