@@ -43,8 +43,10 @@
 
 (deftheme gotham "The Gotham color theme")
 
-(defcustom gotham-tty-extended-palette nil
-  "Use the extended 256-color palette in the terminal?
+(define-obsolete-variable-alias 'gotham-tty-extended-palette
+  'gotham-tty-256-colors "1.1.6")
+(defcustom gotham-tty-256-colors nil
+  "Use the regular 256-color palette in the terminal?
 When t, assume a regular 256-color palette, otherwise assume a
 customized 16-color palette."
   :type '(boolean (const :tag "16 colors" nil)
@@ -52,23 +54,23 @@ customized 16-color palette."
   :group 'gotham)
 
 (defvar gotham-color-alist
-  `((base0   "#0c1014" ,(if gotham-tty-extended-palette "color-232" "black"))
-    (base1   "#11151c" ,(if gotham-tty-extended-palette "color-233" "brightblack"))
-    (base2   "#091f2e" ,(if gotham-tty-extended-palette "color-17"  "brightgreen"))
-    (base3   "#0a3749" ,(if gotham-tty-extended-palette "color-18"  "brightblue"))
-    (base4   "#245361" ,(if gotham-tty-extended-palette "color-24"  "brightyellow"))
-    (base5   "#599cab" ,(if gotham-tty-extended-palette "color-81"  "brightcyan"))
-    (base6   "#99d1ce" ,(if gotham-tty-extended-palette "color-122" "white"))
-    (base7   "#d3ebe9" ,(if gotham-tty-extended-palette "color-194" "brightwhite"))
+  `((base0   "#0c1014" ,(if gotham-tty-256-colors "color-232" "black"))
+    (base1   "#11151c" ,(if gotham-tty-256-colors "color-233" "brightblack"))
+    (base2   "#091f2e" ,(if gotham-tty-256-colors "color-17"  "brightgreen"))
+    (base3   "#0a3749" ,(if gotham-tty-256-colors "color-18"  "brightblue"))
+    (base4   "#245361" ,(if gotham-tty-256-colors "color-24"  "brightyellow"))
+    (base5   "#599cab" ,(if gotham-tty-256-colors "color-81"  "brightcyan"))
+    (base6   "#99d1ce" ,(if gotham-tty-256-colors "color-122" "white"))
+    (base7   "#d3ebe9" ,(if gotham-tty-256-colors "color-194" "brightwhite"))
 
-    (red     "#c23127" ,(if gotham-tty-extended-palette "color-124" "red"))
-    (orange  "#d26937" ,(if gotham-tty-extended-palette "color-166" "brightred"))
-    (yellow  "#edb443" ,(if gotham-tty-extended-palette "color-214" "yellow"))
-    (magenta "#888ca6" ,(if gotham-tty-extended-palette "color-67"  "brightmagenta"))
-    (violet  "#4e5166" ,(if gotham-tty-extended-palette "color-60"  "magenta"))
-    (blue    "#195466" ,(if gotham-tty-extended-palette "color-24"  "blue"))
-    (cyan    "#33859e" ,(if gotham-tty-extended-palette "color-44"  "cyan"))
-    (green   "#2aa889" ,(if gotham-tty-extended-palette "color-78"  "green")))
+    (red     "#c23127" ,(if gotham-tty-256-colors "color-124" "red"))
+    (orange  "#d26937" ,(if gotham-tty-256-colors "color-166" "brightred"))
+    (yellow  "#edb443" ,(if gotham-tty-256-colors "color-214" "yellow"))
+    (magenta "#888ca6" ,(if gotham-tty-256-colors "color-67"  "brightmagenta"))
+    (violet  "#4e5166" ,(if gotham-tty-256-colors "color-60"  "magenta"))
+    (blue    "#195466" ,(if gotham-tty-256-colors "color-24"  "blue"))
+    (cyan    "#33859e" ,(if gotham-tty-256-colors "color-44"  "cyan"))
+    (green   "#2aa889" ,(if gotham-tty-256-colors "color-78"  "green")))
   "List of colors the theme consists of.")
 
 (defun gotham-set-faces (faces)
