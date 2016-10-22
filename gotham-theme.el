@@ -462,6 +462,7 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; anzu
    (anzu-mode-line :foreground orange :weight bold)
+   (anzu-mode-line-no-match :foreground red :weight bold)
    (anzu-replace-highlight :foreground base6 :background red)
    (anzu-match-1 :foreground base0 :background green)
    (anzu-match-2 :foreground base0 :background yellow)
