@@ -34,6 +34,9 @@
 ;; is based, it can be found under
 ;; <https://github.com/whatyouhide/vim-gotham>
 
+;; nullx002's edits for few packages
+;; 
+
 ;;; Code:
 
 (defgroup gotham nil
@@ -894,6 +897,34 @@ depending on DISPLAY for keys which are either :foreground or
    ;; volatile-highlights
    (vhl/default-face :inherit highlight)
 
+   ;; w3m
+   (w3m-anchor ((,class (:inherit link))))
+   (w3m-arrived-anchor ((,class (:inherit link-visited))))
+   (w3m-form ((,class (:background ,base03 :foreground ,base0))))
+   (w3m-header-line-location-title
+    ((,class (:background ,base02 :foreground ,yellow))))
+   (w3m-header-line-location-content
+    ((,class (:background ,base02 :foreground ,base0))))
+   (w3m-bold ((,class (:foreground ,base1 :weight bold))))
+   (w3m-image-anchor ((,class (:background ,base03 :foreground ,cyan :inherit link))))
+   (w3m-image ((,class (:background ,base03 :foreground ,cyan))))
+   (w3m-lnum-minibuffer-prompt ((,class (:foreground ,base1))))
+   (w3m-lnum-match ((,class (:background ,base02))))
+   (w3m-lnum ((,class (:underline nil :bold nil :foreground ,red))))
+   (w3m-session-select ((,class (:foreground ,base0))))
+   (w3m-session-selected ((,class (:foreground ,base1 :bold t :underline t))))
+   (w3m-tab-background ((,class (:background ,base03 :foreground ,base0))))
+   (w3m-tab-selected-background
+    ((,class (:background ,base03 :foreground ,base0))))
+   (w3m-tab-mouse ((,class (:background ,base02 :foreground ,yellow))))
+   (w3m-tab-selected ((,class (:background ,base02 :foreground ,base1
+                                           :bold t))))
+   (w3m-tab-unselected ((,class (:background ,base02 :foreground ,base0))))
+   (w3m-tab-selected-retrieving ((,class (:background ,base02 :foreground ,red))))
+   (w3m-tab-unselected-retrieving
+    ((,class (:background ,base02 :foreground ,orange))))
+   (w3m-tab-unselected-unseen ((,class (:background ,base02 :foreground ,violet))))   
+   
    ;; web-mode
    (web-mode-block-attr-name-face :foreground green)
    (web-mode-block-attr-value-face :foreground cyan)
