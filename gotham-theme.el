@@ -34,8 +34,8 @@
 ;; is based, it can be found under
 ;; <https://github.com/whatyouhide/vim-gotham>
 
-;; nullx002's edits for few packages
-;; 
+;; nullx002's edits for few packages - https://github.com/nullx002/gotham-theme
+;; w3m-browser
 
 ;;; Code:
 
