@@ -894,33 +894,33 @@ depending on DISPLAY for keys which are either :foreground or
    ;; volatile-highlights
    (vhl/default-face :inherit highlight)
 
-   ;; w3m
-   (w3m-anchor ((,class (:inherit link))))
-   (w3m-arrived-anchor ((,class (:inherit link-visited))))
-   (w3m-form ((,class (:background ,base03 :foreground ,base0))))
+;; w3m
+   (w3m-anchor  :inherit link)
+   (w3m-arrived-anchor :inherit link-visited)
+   (w3m-form :background base3 :foreground base0)
    (w3m-header-line-location-title
-    ((,class (:background ,base02 :foreground ,yellow))))
+    :background base2 :foreground yellow)
    (w3m-header-line-location-content
-    ((,class (:background ,base02 :foreground ,base0))))
-   (w3m-bold ((,class (:foreground ,base1 :weight bold))))
-   (w3m-image-anchor ((,class (:background ,base03 :foreground ,cyan :inherit link))))
-   (w3m-image ((,class (:background ,base03 :foreground ,cyan))))
-   (w3m-lnum-minibuffer-prompt ((,class (:foreground ,base1))))
-   (w3m-lnum-match ((,class (:background ,base02))))
-   (w3m-lnum ((,class (:underline nil :bold nil :foreground ,red))))
-   (w3m-session-select ((,class (:foreground ,base0))))
-   (w3m-session-selected ((,class (:foreground ,base1 :bold t :underline t))))
-   (w3m-tab-background ((,class (:background ,base03 :foreground ,base0))))
+    :background base2 :foreground base0)
+   (w3m-bold :foreground base1 :weight bold)
+   (w3m-image-anchor :background base3 :foreground cyan :inherit link)
+   (w3m-image :background base3 :foreground cyan)
+   (w3m-lnum-minibuffer-prompt :foreground base1)
+   (w3m-lnum-match :background base2)
+   (w3m-lnum :underline nil :bold nil :foreground red)
+   (w3m-session-select :foreground base0)
+   (w3m-session-selected :foreground base1 :bold t :underline t)
+   (w3m-tab-background :background base3 :foreground base0)
    (w3m-tab-selected-background
-    ((,class (:background ,base03 :foreground ,base0))))
-   (w3m-tab-mouse ((,class (:background ,base02 :foreground ,yellow))))
-   (w3m-tab-selected ((,class (:background ,base02 :foreground ,base1
-                                           :bold t))))
-   (w3m-tab-unselected ((,class (:background ,base02 :foreground ,base0))))
-   (w3m-tab-selected-retrieving ((,class (:background ,base02 :foreground ,red))))
+    :background base3 :foreground base0)
+   (w3m-tab-mouse :background base2 :foreground yellow)
+   (w3m-tab-selected :background base2 :foreground yellow
+                                           :bold t)
+   (w3m-tab-unselected :background base2 :foreground violet)
+   (w3m-tab-selected-retrieving :background base2 :foreground red)
    (w3m-tab-unselected-retrieving
-    ((,class (:background ,base02 :foreground ,orange))))
-   (w3m-tab-unselected-unseen ((,class (:background ,base02 :foreground ,violet))))   
+    :background base2 :foreground orange)
+   (w3m-tab-unselected-unseen :background base2 :foreground violet)
    
    ;; web-mode
    (web-mode-block-attr-name-face :foreground green)
