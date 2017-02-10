@@ -895,18 +895,18 @@ depending on DISPLAY for keys which are either :foreground or
    (vhl/default-face :inherit highlight)
 
    ;; w3m
-   (w3m-anchor  :inherit link) ;; comment out if conflict with gnus
-   (w3m-arrived-anchor :inherit link-visited) ;; comment out if conflict with gnus
+   (w3m-anchor :inherit link)
+   (w3m-arrived-anchor :inherit link-visited)
    (w3m-form :background base1 :foreground magenta)
    (w3m-form-button :background base1 :foreground cyan)
    (w3m-form-button-mouse :background base1 :foreground green)
    (w3m-form-button-pressed :background base1 :foreground green)
    (w3m-form-inactive :background base1 :foreground base6)
-   (w3m-insert :background base2  :foreground magenta)
-   (w3m-error :background base1  :foreground red)     
+   (w3m-insert :background base2 :foreground magenta)
+   (w3m-error :background base1 :foreground red)
    (w3m-header-line-location-title :background base2 :foreground yellow)
    (w3m-header-line-location-content :background base2 :foreground base0)
-   (w3m-bold :foreground base1 :weight bold)
+   (w3m-bold :weight bold)
    (w3m-image-anchor :background base3 :foreground cyan :inherit link)
    (w3m-image :background base3 :foreground cyan)
    (w3m-lnum-minibuffer-prompt :foreground base1)
