@@ -905,7 +905,7 @@ depending on DISPLAY for keys which are either :foreground or
    (w3m-insert :background base2 :foreground magenta)
    (w3m-error :background base1 :foreground red)
    (w3m-header-line-location-title :background base2 :foreground yellow)
-   (w3m-header-line-location-content :background base2 :foreground base0)
+   (w3m-header-line-location-content :background base2 :foreground base4)
    (w3m-bold :weight bold)
    (w3m-image-anchor :background base3 :foreground cyan :inherit link)
    (w3m-image :background base3 :foreground cyan)
@@ -921,7 +921,7 @@ depending on DISPLAY for keys which are either :foreground or
    (w3m-tab-unselected :background base2 :foreground violet)
    (w3m-tab-selected-retrieving :background base2 :foreground red)
    (w3m-tab-unselected-retrieving :background base2 :foreground orange)
-   
+
    ;; web-mode
    (web-mode-block-attr-name-face :foreground green)
    (web-mode-block-attr-value-face :foreground cyan)
