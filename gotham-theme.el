@@ -381,6 +381,12 @@ depending on DISPLAY for keys which are either :foreground or
    (rcirc-server :foreground cyan)
    (rcirc-url :inherit link)
 
+   ;; re-builder
+   (reb-match-0 :foreground base0 :background base6)
+   (reb-match-1 :foreground base0 :background green)
+   (reb-match-2 :foreground base0 :background yellow)
+   (reb-match-3 :foreground base0 :background cyan)
+
    ;; ruler
    (ruler-mode-column-number :foreground base6)
    (ruler-mode-comment-column :foreground base4)
