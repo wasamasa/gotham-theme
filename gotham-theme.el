@@ -128,7 +128,6 @@ depending on DISPLAY for keys which are either :foreground or
    (cursor :background base6)
    (region :foreground unspecified :background base3)
    (secondary-selection :foreground unspecified :background violet)
-   (hl-line :background base1)
    (linum :foreground base4 :background base1)
    (fringe :foreground base6 :background base1)
    (vertical-border :foreground base4)
