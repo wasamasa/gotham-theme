@@ -777,7 +777,7 @@ depending on DISPLAY for keys which are either :foreground or
    (macrostep-gensym-5 :foreground magenta :weight bold :box t)
 
    ;; mu4e
-   (mu4e-header-highlight-face :inherit hl-line)
+   (mu4e-header-highlight-face :inherit highlight)
    (mu4e-region-code :inherit region)
 
    ;; neotree
@@ -854,14 +854,14 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; rainbow-delimiters
    (rainbow-delimiters-depth-1-face :foreground base6)
-   (rainbow-delimiters-depth-2-face :inherit outline-1)
-   (rainbow-delimiters-depth-3-face :inherit outline-2)
-   (rainbow-delimiters-depth-4-face :inherit outline-3)
-   (rainbow-delimiters-depth-5-face :inherit outline-4)
-   (rainbow-delimiters-depth-6-face :inherit outline-5)
-   (rainbow-delimiters-depth-7-face :inherit outline-6)
-   (rainbow-delimiters-depth-8-face :inherit outline-7)
-   (rainbow-delimiters-depth-9-face :inherit outline-8)
+   (rainbow-delimiters-depth-2-face :foreground cyan)
+   (rainbow-delimiters-depth-3-face :foreground orange)
+   (rainbow-delimiters-depth-4-face :foreground magenta)
+   (rainbow-delimiters-depth-5-face :foreground green)
+   (rainbow-delimiters-depth-6-face :foreground blue)
+   (rainbow-delimiters-depth-7-face :foreground yellow)
+   (rainbow-delimiters-depth-8-face :foreground violet)
+   (rainbow-delimiters-depth-9-face :foreground red)
    (rainbow-delimiters-unmatched-face :foreground base2 :background base6)
 
    ;; rst-mode
@@ -881,8 +881,8 @@ depending on DISPLAY for keys which are either :foreground or
    (slime-repl-inputed-output-face :foreground red)
 
    ;; smartparens
-   (sp-show-pair-match-face :inherit show-paren-match)
-   (sp-show-pair-mismatch-face :inherit show-paren-mismatch)
+   (sp-show-pair-match-face :foreground base2 :background orange)
+   (sp-show-pair-mismatch-face :foreground base2 background red)
 
    ;; smart-mode-line
    (sml/charging :foreground green)
@@ -944,7 +944,7 @@ depending on DISPLAY for keys which are either :foreground or
    (web-mode-json-key-face :foreground magenta)
    (web-mode-param-name-face :foreground base5)
    (web-mode-symbol-face :foreground yellow)
-   (web-mode-whitespace-face :inherit whitespace-space-after-tab)
+   (web-mode-whitespace-face :foreground base7 :background red)
 
    ;; undo-tree
    (undo-tree-visualizer-default-face :inherit shadow)
