@@ -629,6 +629,23 @@ depending on DISPLAY for keys which are either :foreground or
    (hydra-face-pink :foreground orange :bold t)
    (hydra-face-amaranth :foreground magenta :bold t)
 
+   ;; info+
+   (info-command-ref-item :foreground green :background base2)
+   (info-constant-ref-item :foreground cyan :background base2)
+   (info-double-quoted-name :inherit font-lock-comment-face)
+   (info-file :foreground yellow :background base2)
+   (info-function-ref-item :inherit font-lock-function-name-face :background base2)
+   (info-macro-ref-item :foreground yellow :background base2)
+   (info-menu :foreground yellow)
+   (info-quoted-name :inherit font-lock-constant-face)
+   (info-reference-item :background base2)
+   (info-single-quote :inherit font-lock-keyword-face)
+   (info-special-form-ref-item :foreground yellow :background base2)
+   (info-string :inherit font-lock-string-face)
+   (info-syntax-class-item :foreground blue :background base2)
+   (info-user-option-ref-item :foreground red :background base2)
+   (info-variable-ref-item :inherit font-lock-variable-name-face :background base2)
+
    ;; ivy
    (ivy-confirm-face :foreground cyan)
    (ivy-current-match :foreground base7 :background base3)
