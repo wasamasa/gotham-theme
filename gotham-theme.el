@@ -871,7 +871,7 @@ depending on DISPLAY for keys which are either :foreground or
    (org-habit-ready-face :background green)
    (org-habit-ready-future-face :background green)
    (org-headline-done :foreground yellow)
-   (org-hide :background base0)
+   (org-hide :foreground base0)
    (org-latex-and-related :foreground orange)
    (org-scheduled :foreground green)
    (org-scheduled-previously :foreground orange)
