@@ -928,7 +928,7 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; smartparens
    (sp-show-pair-match-face :foreground base2 :background orange)
-   (sp-show-pair-mismatch-face :foreground base2 background red)
+   (sp-show-pair-mismatch-face :foreground base2 :background red)
 
    ;; smart-mode-line
    (sml/charging :foreground green)
