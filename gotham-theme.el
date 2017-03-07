@@ -628,7 +628,7 @@ depending on DISPLAY for keys which are either :foreground or
    (helm-buffer-size :foreground magenta)
    (helm-candidate-number :background base3)
    (helm-ff-directory :weight bold)
-   (helm-ff-executable :forground green)
+   (helm-ff-executable :foreground green)
    (helm-ff-invalid-symlink :foreground base2 :background red)
    (helm-ff-prefix :foreground base2 :background yellow)
    (helm-ff-symlink :foreground orange)
@@ -928,7 +928,7 @@ depending on DISPLAY for keys which are either :foreground or
 
    ;; smartparens
    (sp-show-pair-match-face :foreground base2 :background orange)
-   (sp-show-pair-mismatch-face :foreground base2 background red)
+   (sp-show-pair-mismatch-face :foreground base2 :background red)
 
    ;; smart-mode-line
    (sml/charging :foreground green)
