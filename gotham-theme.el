@@ -270,7 +270,7 @@ depending on DISPLAY for keys which are either :foreground or
    (gnus-header-subject :foreground base5)
    (gnus-x-face :foreground base0 :background base6)
    (gnus-signature :inherit italic :foreground blue)
-   (mm-uu-extract :foreground base6 :background red)
+   (mm-uu-extract :foreground green :background base1)
    (gnus-cite-1 :foreground base4)
    (gnus-cite-2 :foreground base5)
    (gnus-cite-3 :foreground base6)
