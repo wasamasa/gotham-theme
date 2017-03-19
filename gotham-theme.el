@@ -243,16 +243,6 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-symlink :foreground blue :weight bold)
    (eshell-ls-unreadable :foreground red)
 
-   ;; elfeed
-   (elfeed-log-error-level-face :inherit error)
-   (elfeed-log-info-level-face :inherit success)
-   (elfeed-log-warn-level-face :inherit warning)
-   (elfeed-search-feed-face :foreground orange)
-   (elfeed-search-tag-face :foreground green)
-   (elfeed-search-title-face :foreground base6)
-   (elfeed-search-title-unread-face :foreground base6 :weight bold)
-   (elfeed-search-date-face :foreground violet)
-
    ;; flymake
    (flymake-errline :underline (:style wave :color red))
    (flymake-warnline :underline (:style wave :color orange))
@@ -579,6 +569,16 @@ depending on DISPLAY for keys which are either :foreground or
    (ecb-tree-guide-line-face :foreground base4)
    (ecb-type-tag-group-face :foreground magenta)
 
+   ;; elfeed
+   (elfeed-log-error-level-face :inherit error)
+   (elfeed-log-info-level-face :inherit success)
+   (elfeed-log-warn-level-face :inherit warning)
+   (elfeed-search-feed-face :foreground orange)
+   (elfeed-search-tag-face :foreground green)
+   (elfeed-search-title-face :foreground base6)
+   (elfeed-search-title-unread-face :foreground base6 :weight bold)
+   (elfeed-search-date-face :foreground violet)
+
    ;; emms
    (emms-playlist-track-face :foreground blue)
    (emms-playlist-selected-face :foreground base6)
@@ -678,6 +678,7 @@ depending on DISPLAY for keys which are either :foreground or
    ;; ivy
    (ivy-confirm-face :foreground cyan)
    (ivy-current-match :foreground base7 :background base3)
+   (ivy-cursor :foreground base7 :background base3)
    (ivy-match-required :foreground red)
    (ivy-minibuffer-match-face-1 :foreground base0 :background base4)
    (ivy-minibuffer-match-face-2 :foreground base0 :background magenta)
