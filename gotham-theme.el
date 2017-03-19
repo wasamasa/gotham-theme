@@ -685,8 +685,8 @@ depending on DISPLAY for keys which are either :foreground or
    (ivy-minibuffer-match-face-3 :foreground base0 :background green)
    (ivy-minibuffer-match-face-4 :foreground base0 :background base5)
    (ivy-modified-buffer :foreground yellow)
-   (ivy-remote :foreground violet)
-   (ivy-subdir :foreground red)
+   (ivy-remote :foreground red)
+   (ivy-subdir :foreground base5)
    (ivy-virtual :foreground green)
 
    ;; jabber
