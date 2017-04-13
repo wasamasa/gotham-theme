@@ -888,7 +888,7 @@ depending on DISPLAY for keys which are either :foreground or
    (org-agenda-done :foreground green)
    (org-agenda-restriction-lock :inherit highlight)
    (org-agenda-structure :foreground base5)
-   (org-block :foreground base5)
+   (org-block :foreground base7)
    (org-clock-overlay :inherit secondary-selection)
    (org-column :background base2)
    (org-column-title :inherit org-column :underline t)
