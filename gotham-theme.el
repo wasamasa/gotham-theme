@@ -348,13 +348,13 @@ depending on DISPLAY for keys which are either :foreground or
    (message-separator :foreground blue)
 
    ;; outline
-   (outline-1 :foreground red)
+   (outline-1 :foreground violet)
    (outline-2 :foreground cyan)
-   (outline-3 :foreground orange)
+   (outline-3 :foreground magenta)
    (outline-4 :foreground green)
-   (outline-5 :foreground red)
+   (outline-5 :foreground violet)
    (outline-6 :foreground cyan)
-   (outline-7 :foreground orange)
+   (outline-7 :foreground magenta)
    (outline-8 :foreground green)
 
    ;; pulse
@@ -888,6 +888,7 @@ depending on DISPLAY for keys which are either :foreground or
    (org-agenda-done :foreground green)
    (org-agenda-restriction-lock :inherit highlight)
    (org-agenda-structure :foreground base5)
+   (org-block :inherit default)
    (org-clock-overlay :inherit secondary-selection)
    (org-column :background base2)
    (org-column-title :inherit org-column :underline t)
