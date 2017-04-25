@@ -529,6 +529,26 @@ depending on DISPLAY for keys which are either :foreground or
    (bmkp-url :foreground orange)
    (bmkp-variable-list :foreground base5)
 
+   ;; cfw-calendar
+   (cfw:face-annotation :background base1 :foreground violet)
+   (cfw:face-day-title :background base1)
+   (cfw:face-default-content :foreground yellow)
+   (cfw:face-default-day :background base1 :weight bold)
+   (cfw:face-disable :background base1 :foreground violet)
+   (cfw:face-grid :foreground violet)
+   (cfw:face-header :foreground yellow :weight bold)
+   (cfw:face-holiday :background green :foreground base7)
+   (cfw:face-periods :foreground cyan)
+   (cfw:face-select :background base3 :foreground yellow)
+   (cfw:face-saturday :foreground violet :weight bold)
+   (cfw:face-sunday :foreground magenta :weight bold)
+   (cfw:face-title :background base0 :foreground magenta :weight bold)
+   (cfw:face-today :background base1 :foreground cyan)
+   (cfw:face-today-title :background red :foreground base7)
+   (cfw:face-toolbar :background base1)
+   (cfw:face-toolbar-button-off :foreground yellow)
+   (cfw:face-toolbar-button-on :foreground violet)
+
    ;; circe
    (circe-fool-face :inherit shadow)
    (circe-highlight-nick-face :foreground base5 :weight bold)
