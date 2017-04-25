@@ -4,6 +4,7 @@
 
 ;; Author: Vasilij Schneidermann <v.schneidermann@gmail.com>
 ;; URL: https://github.com/wasamasa/gotham-theme
+;; Package-Version: 20170414.1046
 ;; Version: 1.1.7
 
 ;; This file is NOT part of GNU Emacs.
