@@ -243,9 +243,6 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-symlink :foreground blue :weight bold)
    (eshell-ls-unreadable :foreground red)
 
-   ;; flx
-   (flx-highlight-face :foreground yellow)
-
    ;; flymake
    (flymake-errline :underline (:style wave :color red))
    (flymake-warnline :underline (:style wave :color orange))
@@ -661,6 +658,9 @@ depending on DISPLAY for keys which are either :foreground or
    (enh-ruby-string-delimiter-face :foreground green)
    (erm-syn-errline :foreground red)
    (erm-syn-warnline :foreground orange)
+
+   ;; flx
+   (flx-highlight-face :foreground yellow)
 
    ;; flycheck
    (flycheck-error :underline (:style wave :color red))
