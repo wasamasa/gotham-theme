@@ -243,6 +243,9 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-symlink :foreground blue :weight bold)
    (eshell-ls-unreadable :foreground red)
 
+   ;; flx
+   (flx-highlight-face :foreground yellow)
+
    ;; flymake
    (flymake-errline :underline (:style wave :color red))
    (flymake-warnline :underline (:style wave :color orange))
