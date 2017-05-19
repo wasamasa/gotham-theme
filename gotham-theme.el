@@ -241,7 +241,7 @@ depending on DISPLAY for keys which are either :foreground or
    (eshell-ls-readonly :foreground red)
    (eshell-ls-special :foreground orange :weight bold)
    (eshell-ls-symlink :foreground blue :weight bold)
-   (eshell-ls-unreadable :foreground red)
+   (eshell-ls-unreadable :foreground base4)
 
    ;; flymake
    (flymake-errline :underline (:style wave :color red))
