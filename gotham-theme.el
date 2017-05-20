@@ -1054,6 +1054,13 @@ depending on DISPLAY for keys which are either :foreground or
    (web-mode-symbol-face :foreground yellow)
    (web-mode-whitespace-face :foreground base7 :background red)
 
+   ;; wgrep
+   (wgrep-delete-face :foreground red)
+   (wgrep-done-face :foreground blue)
+   (wgrep-face :foreground yellow)
+   (wgrep-file-face :foreground green)
+   (wgrep-reject-face :foreground violet :weight bold)
+
    ;; undo-tree
    (undo-tree-visualizer-default-face :inherit shadow)
    (undo-tree-visualizer-current-face :foreground orange)
