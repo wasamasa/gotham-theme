@@ -156,7 +156,7 @@ depending on DISPLAY for keys which are either :foreground or
    (warning :foreground orange)
 
    ;; search and highlighting
-   (match :background base5)
+   (match :background base4)
    (isearch :inverse-video t)
    (isearch-fail :foreground red)
    (lazy-highlight :foreground base2 :background yellow)
