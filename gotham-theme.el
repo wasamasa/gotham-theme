@@ -627,14 +627,16 @@ depending on DISPLAY for keys which are either :foreground or
    (ecb-type-tag-group-face :foreground magenta)
 
    ;; elfeed
+   (elfeed-log-debug-level-face :foreground base4)
    (elfeed-log-error-level-face :inherit error)
    (elfeed-log-info-level-face :inherit success)
    (elfeed-log-warn-level-face :inherit warning)
+   (elfeed-search-date-face :foreground violet)
    (elfeed-search-feed-face :foreground orange)
    (elfeed-search-tag-face :foreground green)
-   (elfeed-search-title-face :foreground base6)
-   (elfeed-search-title-unread-face :foreground base6 :weight bold)
-   (elfeed-search-date-face :foreground violet)
+   (elfeed-search-title-face :foreground base5)
+   (elfeed-search-unread-count-face :foreground orange)
+   (elfeed-search-unread-title-face :foreground base6 :weight bold)
 
    ;; emms
    (emms-playlist-track-face :foreground blue)
