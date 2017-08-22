@@ -185,9 +185,9 @@ depending on DISPLAY for keys which are either :foreground or
    (diff-changed :foreground cyan)
    (diff-header :foreground yellow)
    (diff-file-header :weight bold)
-   (diff-refine-added :weight bold)
-   (diff-refine-change :weight bold)
-   (diff-refine-removed :weight bold)
+   (diff-refine-added :background base3)
+   (diff-refine-change :background base3)
+   (diff-refine-removed :background base3)
    (diff-removed :foreground red)
 
    ;; erc
