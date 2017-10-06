@@ -982,8 +982,8 @@ depending on DISPLAY for keys which are either :foreground or
    (realgud-bp-disabled-face       :inherit secondary-selection)
    (realgud-bp-line-enabled-face   :foreground red)
    (realgud-bp-line-disabled-face  :inherit secondary-selection)
-   (realgud-line-number            :inherit sml/line-number)
-   (realgud-backtrace-number       :inherit sml/line-number :weight bold)
+   (realgud-line-number            :foreground base5)
+   (realgud-backtrace-number       :inherit realgud-line-number :weight bold)
 
    ;; rst-mode
    (rst-level-1 :background base2)
