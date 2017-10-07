@@ -974,6 +974,17 @@ depending on DISPLAY for keys which are either :foreground or
    (rainbow-delimiters-depth-9-face :foreground red)
    (rainbow-delimiters-unmatched-face :foreground base2 :background base6)
 
+   ;; realgud
+   (realgud-overlay-arrow1         :foreground green)
+   (realgud-overlay-arrow2         :foreground yellow)
+   (realgud-overlay-arrow3         :foreground orange)
+   (realgud-bp-enabled-face        :inherit error)
+   (realgud-bp-disabled-face       :inherit secondary-selection)
+   (realgud-bp-line-enabled-face   :foreground red)
+   (realgud-bp-line-disabled-face  :inherit secondary-selection)
+   (realgud-line-number            :foreground base5)
+   (realgud-backtrace-number       :inherit realgud-line-number :weight bold)
+
    ;; rst-mode
    (rst-level-1 :background base2)
    (rst-level-2 :background base3)
