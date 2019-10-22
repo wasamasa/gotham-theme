@@ -417,6 +417,7 @@ depending on DISPLAY for keys which are either :foreground or
    (show-paren-mismatch :foreground base2 :background red :inverse-video nil)
 
    ;; term
+   (term :foreground base6 :background base0)
    (term-color-black :foreground base1 :background base1)
    (term-color-red :foreground red :background red)
    (term-color-green :foreground green :background green)
